@@ -9,7 +9,7 @@ import myfirstmod.Tank.Tank;
 import myfirstmod.util.CardStats;
 
 public class Strike_Tank extends BaseCard {
-    public static final String ID = makeID("Defend");
+    public static final String ID = makeID("Strike");
 
     private static final int DAMAGE = 6;
     private static final int UPG_DAMAGE = 3;
