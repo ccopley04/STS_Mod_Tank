@@ -1,3 +1,12 @@
+# The Tank
+This mod is Caleb Copley's first mod and introduces a new character.
+The character is called The Tank and will have their own cards and relics.
+This mod is built atop the BasicMod tutorial detailed below.
+The Tank character, any cards within the cards folder, and any relics in the relic folder
+are my own creations or created by the direction of the tutorial.
+
+- Caleb Copley
+
 # Basic Mod
 
 This is an empty Slay the Spire mod + a modding tutorial.
