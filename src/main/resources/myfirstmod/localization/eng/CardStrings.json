@@ -16,5 +16,9 @@
   "${modID}:Defend": {
     "NAME": "Defend",
     "DESCRIPTION": "Gain !B! block."
+  },
+  "${modID}:Steamroll": {
+    "NAME": "Steamroll",
+    "DESCRIPTION": "Deal damage equal to your current block. (Deal !${modID}:blockrn! damage)."
   }
 }

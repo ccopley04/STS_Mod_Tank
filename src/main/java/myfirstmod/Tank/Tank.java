@@ -23,6 +23,7 @@ import com.megacrit.cardcrawl.helpers.ScreenShake;
 import com.megacrit.cardcrawl.relics.BurningBlood;
 import com.megacrit.cardcrawl.screens.CharSelectInfo;
 import myfirstmod.cards.Defend_Tank;
+import myfirstmod.cards.Steamroll_Tank;
 import myfirstmod.cards.Strike_Tank;
 
 import java.util.ArrayList;
@@ -141,15 +142,15 @@ public class Tank extends CustomPlayer {
         ArrayList<String> retVal = new ArrayList<>();
         //List of IDs of cards for your starting deck.
         //If you want multiple of the same card, you have to add it multiple times.
-        for(int i = 0; i < 4;i++){
+        for(int i = 0; i < 3;i++){
             retVal.add(Strike_Tank.ID);
         }
 
-        for(int i = 0; i < 5;i++){
+        for(int i = 0; i < 4;i++){
             retVal.add(Defend_Tank.ID);
         }
 
-        retVal.add(Neutralize.ID);
+        retVal.add(Steamroll_Tank.ID);
         return retVal;
     }
 
