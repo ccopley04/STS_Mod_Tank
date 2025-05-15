@@ -28,7 +28,7 @@ public class Steamroll_Tank extends BaseCard {
         setCustomVar("blockrn", 0, 0);
         setVarCalculation("blockrn", (card, m, base)->{
             if(AbstractDungeon.player != null){
-                return AbstractDungeon.player.currentBlock;
+                return 2*AbstractDungeon.player.currentBlock;
             }
             return 0;
         });
@@ -38,6 +38,6 @@ public class Steamroll_Tank extends BaseCard {
 
     @Override
     public void use(AbstractPlayer p, AbstractMonster m) {
-        addToBot(new DamageAction(m, new DamageInfo(p, p.currentBlock, DamageInfo.DamageType.NORMAL), AbstractGameAction.AttackEffect.SMASH));
+        addToBot(new DamageAction(m, new DamageInfo(p, 2*p.currentBlock, DamageInfo.DamageType.NORMAL), AbstractGameAction.AttackEffect.SMASH));
     }
 }
