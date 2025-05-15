@@ -19,6 +19,10 @@
   },
   "${modID}:Steamroll": {
     "NAME": "Steamroll",
-    "DESCRIPTION": "Deal damage equal to your current block. (Deal !${modID}:blockrn! damage)."
+    "DESCRIPTION": "Deal damage equal to your current Block. NL (Deal !${modID}:blockrn! damage)."
+  },
+  "${modID}:Entrench": {
+    "NAME": "Entrench",
+    "DESCRIPTION": "Apply !M! Weak. NL Gain !B! Block."
   }
 }
