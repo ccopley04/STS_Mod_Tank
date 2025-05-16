@@ -36,6 +36,5 @@ public class Entrench_Tank extends BaseCard{
     public void use(AbstractPlayer p, AbstractMonster m){
         addToBot(new GainBlockAction(p, block));
         addToBot(new ApplyPowerAction(m, p, new WeakPower(m, this.magicNumber, false)));
-
     }
 }
