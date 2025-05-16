@@ -24,5 +24,9 @@
   "${modID}:Entrench": {
     "NAME": "Entrench",
     "DESCRIPTION": "Apply !M! Weak. NL Gain !B! Block."
+  },
+  "${modID}:Here_Goes_Nothing": {
+    "NAME": "Here Goes Nothing",
+    "DESCRIPTION": "Deal !D! damage. NL Apply !M! Vulnerable to yourself."
   }
 }
