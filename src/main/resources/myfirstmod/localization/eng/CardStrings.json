@@ -28,5 +28,9 @@
   "${modID}:Here_Goes_Nothing": {
     "NAME": "Here Goes Nothing",
     "DESCRIPTION": "Deal !D! damage. NL Apply !M! Vulnerable to yourself."
+  },
+  "${modID}:Prep_Time": {
+    "NAME": "Prep Time",
+    "DESCRIPTION": "Gain !B! Block. NL Put a card from your hand on top of your draw pile. NL It costs 0 until played."
   }
 }
