@@ -32,5 +32,9 @@
   "${modID}:Prep_Time": {
     "NAME": "Prep Time",
     "DESCRIPTION": "Gain !B! Block. NL Put a card from your hand on top of your draw pile. NL It costs 0 until played."
+  },
+  "${modID}:Dig_In": {
+    "NAME": "Dig In",
+    "DESCRIPTION": "Gain !B! Block. NL Gain !M! Dexterity."
   }
 }

@@ -126,9 +126,6 @@ public class Tank extends CustomPlayer {
                         return Type.NONE; //A NONE animation results in the image given in initializeClass being used
                     }
                 });
-                /*new SpriterAnimation(characterPath("animation/default.scml"))); //Animation*/
-
-        ; //Animation
 
         initializeClass(characterPath("tank_conceptart_smaller.png"),
                 SHOULDER_2,
