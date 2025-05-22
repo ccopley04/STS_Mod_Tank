@@ -36,5 +36,9 @@
   "${modID}:Dig_In": {
     "NAME": "Dig In",
     "DESCRIPTION": "Gain !B! Block. NL Gain !M! Dexterity."
+  },
+  "${modID}:Ram": {
+    "NAME": "Ram",
+    "DESCRIPTION": "Deal !D! damage. NL Inflict !M! Vulnerable."
   }
 }
