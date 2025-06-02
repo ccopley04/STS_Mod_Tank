@@ -40,5 +40,9 @@
   "${modID}:Ram": {
     "NAME": "Ram",
     "DESCRIPTION": "Deal !D! damage. NL Inflict !M! Vulnerable."
+  },
+  "${modID}:Nuke": {
+    "NAME": "Nuke",
+    "DESCRIPTION": "Deal !D! damage. NL If Fatal, then the cost of this card increases by 1 permanently."
   }
 }
