@@ -44,5 +44,9 @@
   "${modID}:Nuke": {
     "NAME": "Nuke",
     "DESCRIPTION": "Deal !D! damage. NL If Fatal, then the cost of this card increases by 1 permanently."
+  },
+  "${modID}:Protect": {
+    "NAME": "Protect",
+    "DESCRIPTION": "Gain !B! Block."
   }
 }
