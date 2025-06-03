@@ -48,5 +48,9 @@
   "${modID}:Protect": {
     "NAME": "Protect",
     "DESCRIPTION": "Gain !B! Block."
+  },
+  "${modID}:Obstruct": {
+    "NAME": "Obstruct",
+    "DESCRIPTION": "Gain !B! Block."
   }
 }
