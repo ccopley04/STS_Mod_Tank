@@ -52,5 +52,9 @@
   "${modID}:Obstruct": {
     "NAME": "Obstruct",
     "DESCRIPTION": "Gain !B! Block."
+  },
+  "${modID}:Pacifism": {
+    "NAME": "Pacifism",
+    "DESCRIPTION": "If you do not play an attack this turn, NL gain !B! at the end of your turn."
   }
 }
