@@ -56,5 +56,9 @@
   "${modID}:Pacifism": {
     "NAME": "Pacifism",
     "DESCRIPTION": "If you do not play an attack this turn, NL gain !B! at the end of your turn."
+  },
+  "${modID}:Earthquake": {
+    "NAME": "Earthquake",
+    "DESCRIPTION": "Whenever you attack ANY enemy, gain !M! Block. NL Exhaust."
   }
 }
