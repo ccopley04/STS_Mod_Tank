@@ -60,5 +60,9 @@
   "${modID}:Earthquake": {
     "NAME": "Earthquake",
     "DESCRIPTION": "Whenever you attack ANY enemy, gain !M! Block. NL Exhaust."
+  },
+  "${modID}:Fragility": {
+    "NAME": "Fragility",
+    "DESCRIPTION": "Gain !B!. NL If you take any damage this turn, immediately die"
   }
 }
