@@ -68,5 +68,9 @@
   "${modID}:Bash": {
     "NAME": "Bash",
     "DESCRIPTION": "Apply !M! ${modID}:Exposed"
+  },
+  "${modID}:Defensive Investment": {
+    "NAME": "Defensive Investment",
+    "DESCRIPTION": "Apply 2 ${modID}:Exposed to yourself. NL After every round, gain !M! Dexterity."
   }
 }
