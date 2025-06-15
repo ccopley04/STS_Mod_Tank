@@ -64,5 +64,9 @@
   "${modID}:Fragility": {
     "NAME": "Fragility",
     "DESCRIPTION": "Gain !B!. NL If you take any damage this turn, immediately die"
+  },
+  "${modID}:Bash": {
+    "NAME": "Bash",
+    "DESCRIPTION": "Apply !M! ${modID}:Exposed"
   }
 }
