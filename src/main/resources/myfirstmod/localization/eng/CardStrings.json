@@ -72,5 +72,9 @@
   "${modID}:Defensive Investment": {
     "NAME": "Defensive Investment",
     "DESCRIPTION": "Apply 2 ${modID}:Exposed to yourself. NL After every round, gain !M! Dexterity."
+  },
+  "${modID}:Forge": {
+    "NAME": "Forge",
+    "DESCRIPTION": "At the start of each turn, NL choose one card to Upgrade."
   }
 }
