@@ -76,5 +76,9 @@
   "${modID}:Forge": {
     "NAME": "Forge",
     "DESCRIPTION": "At the start of each turn, NL choose one card to Upgrade."
+  },
+  "${modID}:Crunch Time": {
+    "NAME": "Crunch Time",
+    "DESCRIPTION": "Do !D! damage X times. NL Draw X fewer cards next turn."
   }
 }
