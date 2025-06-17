@@ -80,5 +80,9 @@
   "${modID}:Crunch Time": {
     "NAME": "Crunch Time",
     "DESCRIPTION": "Do !D! damage X times. NL Draw X fewer cards next turn."
+  },
+  "${modID}:Iron Strike": {
+    "NAME": "Iron Strike",
+    "DESCRIPTION": "Deal !${modID}:baseDamage! damage plus !M! times your current Dexterity. NL (Deals !${modID}:extraDamage! damage)."
   }
 }

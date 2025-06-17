@@ -26,18 +26,27 @@ public class Steamroll_Tank extends BaseCard {
         setCostUpgrade(1);
 
         setCustomVar("blockrn", 0, 0);
-        setVarCalculation("blockrn", (card, m, base)->{
-            if(AbstractDungeon.player != null){
-                return 2*AbstractDungeon.player.currentBlock;
-            }
-            return 0;
-        });
+        setVarCalculation("blockrn", (card, m, base)->
+            calculateDamage());
     }
 
 
 
     @Override
     public void use(AbstractPlayer p, AbstractMonster m) {
-        addToBot(new DamageAction(m, new DamageInfo(p, 2*p.currentBlock, DamageInfo.DamageType.NORMAL), AbstractGameAction.AttackEffect.SMASH));
+        addToBot(new DamageAction(m, new DamageInfo(p, calculateDamage(), DamageInfo.DamageType.NORMAL), AbstractGameAction.AttackEffect.SMASH));
+    }
+
+    public int calculateDamage(){
+        float weakMod = 1;
+
+        if(AbstractDungeon.player != null){
+            if(AbstractDungeon.player.getPower("Weakened") != null &&
+                    AbstractDungeon.player.getPower("Weakened").amount >= 1){
+                weakMod = 0.75F;
+            }
+            return (int)(2 * AbstractDungeon.player.currentBlock * weakMod);
+        }
+        return 0;
     }
 }
