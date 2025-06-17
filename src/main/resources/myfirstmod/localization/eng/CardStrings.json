@@ -19,7 +19,7 @@
   },
   "${modID}:Steamroll": {
     "NAME": "Steamroll",
-    "DESCRIPTION": "Deal damage equal to your current Block. NL (Deal !${modID}:blockrn! damage)."
+    "DESCRIPTION": "Deal damage equal to double your current Block. NL (Deal !${modID}:blockrn! damage)."
   },
   "${modID}:Entrench": {
     "NAME": "Entrench",
@@ -84,5 +84,10 @@
   "${modID}:Iron Strike": {
     "NAME": "Iron Strike",
     "DESCRIPTION": "Deal !${modID}:baseDamage! damage plus !M! times your current Dexterity. NL (Deals !${modID}:extraDamage! damage)."
+  },
+  "${modID}:Tactical Assault": {
+    "NAME": "Tactical Assault",
+    "DESCRIPTION": "{@@}Deal !D! damage. NL Put !M!  {!M!|@=card|>1=cards} from your draw pile into your hand. NL Exhaust."
   }
+
 }

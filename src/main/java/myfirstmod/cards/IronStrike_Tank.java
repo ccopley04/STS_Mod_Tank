@@ -47,6 +47,7 @@ public class IronStrike_Tank extends BaseCard{
         setVarCalculation("extraDamage", (card, m, base)->calculateDamage());
 
         setCustomVar("baseDamage", this.damage, 0);
+        tags.add(CardTags.STRIKE);
     }
 
     public void use(AbstractPlayer p, AbstractMonster m){
