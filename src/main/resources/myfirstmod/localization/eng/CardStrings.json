@@ -88,6 +88,10 @@
   "${modID}:Tactical Assault": {
     "NAME": "Tactical Assault",
     "DESCRIPTION": "{@@}Deal !D! damage. NL Put !M!  {!M!|@=card|>1=cards} from your draw pile into your hand. NL Exhaust."
+  },
+  "${modID}:Scorched Earth": {
+    "NAME": "Scorched Earth",
+    "DESCRIPTION": "Choose any number of cards from your hand to Exhaust. NL Heal !M! for each card Exhausted. NL Exhaust."
   }
 
 }
