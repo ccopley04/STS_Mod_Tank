@@ -96,6 +96,10 @@
   "${modID}:Clean Sweep": {
     "NAME": "Clean Sweep",
     "DESCRIPTION": "Deal !D! damage to ALL enemies. NL Discard your hand, then draw that many cards."
+  },
+  "${modID}:Peak Performance": {
+    "NAME": "Peak Performance",
+    "DESCRIPTION": "{@@} Deal damage equal to {!M!|>2=one third|@=one half} of your current health. NL (Deals !${modID}:currDamage! damage)."
   }
 
 }
