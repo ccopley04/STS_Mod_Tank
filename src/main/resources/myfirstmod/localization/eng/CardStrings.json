@@ -92,6 +92,10 @@
   "${modID}:Scorched Earth": {
     "NAME": "Scorched Earth",
     "DESCRIPTION": "Choose any number of cards from your hand to Exhaust. NL Heal !M! for each card Exhausted. NL Exhaust."
+  },
+  "${modID}:Clean Sweep": {
+    "NAME": "Clean Sweep",
+    "DESCRIPTION": "Deal !D! damage to ALL enemies. NL Discard your hand, then draw that many cards."
   }
 
 }
