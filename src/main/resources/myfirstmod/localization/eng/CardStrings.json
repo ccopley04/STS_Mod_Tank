@@ -100,6 +100,11 @@
   "${modID}:Peak Performance": {
     "NAME": "Peak Performance",
     "DESCRIPTION": "{@@} Deal damage equal to {!M!|>2=one third|@=one half} of your current health. NL (Deals !${modID}:currDamage! damage)."
+  },
+  "${modID}:Espionage": {
+    "NAME": "Espionage",
+    "DESCRIPTION": "Swap ALL debuffs with an enemy. NL Exhaust.",
+    "UPGRADE_DESCRIPTION":"Retain. NL Swap ALL debuffs with an enemy. NL Exhaust."
   }
 
 }
