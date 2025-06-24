@@ -105,6 +105,11 @@
     "NAME": "Espionage",
     "DESCRIPTION": "Swap ALL debuffs with an enemy. NL Exhaust.",
     "UPGRADE_DESCRIPTION":"Retain. NL Swap ALL debuffs with an enemy. NL Exhaust."
+  },
+  "${modID}:Balance": {
+    "NAME": "Balance",
+    "DESCRIPTION": "Ethereal. NL Gain Strength equal to your Dexterity.",
+    "UPGRADE_DESCRIPTION":"Gain Strength equal to your Dexterity."
   }
 
 }
