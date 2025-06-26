@@ -110,6 +110,10 @@
     "NAME": "Balance",
     "DESCRIPTION": "Ethereal. NL Gain Strength equal to your Dexterity.",
     "UPGRADE_DESCRIPTION":"Gain Strength equal to your Dexterity."
+  },
+  "${modID}:Concentrated Effort": {
+    "NAME": "Concentrated Effort",
+    "DESCRIPTION": "Deal !D! damage to the lowest health enemy."
   }
 
 }
