@@ -119,6 +119,10 @@
     "NAME": "An Apple A Day",
     "DESCRIPTION": "Apply X Artifact. NL Exhaust.",
     "UPGRADE_DESCRIPTION":"Apply X Artifact."
+  },
+  "${modID}:Chemical Warfare": {
+    "NAME": "Chemical Warfare",
+    "DESCRIPTION": "Deal !D! damage and apply !M! Poison to ALL enemies."
   }
 
 }
